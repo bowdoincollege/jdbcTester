@@ -5,11 +5,17 @@ This is a quick and dirty jdbc testing application which can be used to debug da
 
 ## Things you'll need:
 
-Eclipse (or another Java IDE)
-Maven
-your Database Connection String
+*Eclipse (or another Java IDE)
+*Maven
+*ojdbc6.jar file from http://www.oracle.com/technetwork/database/features/jdbc/jdbc-drivers-12c-download-1958347.html
+*your Database Connection String
 
 ## How To Use:
+
+First you will want to add an ojdbc6.jar file to this project's maven repository. You will do this by downloading the appropriate ojdbc6.jar file from the link above, and running the following maven command (substituting the correct directories where needed)
+
+mvn install:install-file -Dfile={Path/to/your/ojdbc6.jar} -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar
+
 To use this, download the source control to your computer and open in Eclipse.  Update the project with maven and open the JdbcTesterApplication.java file
 
 Then on line 38, update the connection string to what you need.  If you are connecting to a Banner Oracle database all you will need to update are the host, port, service_name, USER, and PASSWORD
