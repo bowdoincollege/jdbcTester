@@ -14,7 +14,7 @@ This is a quick and dirty jdbc testing application which can be used to debug da
 
 First you will want to add an ojdbc6.jar file to this project's maven repository. You will do this by downloading the appropriate ojdbc6.jar file from the link above, and running the following maven command (substituting the correct directories where needed)
 
-mvn install:install-file -Dfile={Path/to/your/ojdbc6.jar} -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar
+mvn install:install-file -Dfile={Path/to/your/ojdbc6.jar} -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion={Version Number on Website} -Dpackaging=jar
 
 To use this, download the source control to your computer and open in Eclipse.  Update the project with maven and open the JdbcTesterApplication.java file
 
