@@ -9,6 +9,7 @@ Eclipse (or another Java IDE)
 Maven
 your Database Connection String
 
+## How To Use:
 To use this, download the source control to your computer and open in Eclipse.  Update the project with maven and open the JdbcTesterApplication.java file
 
 Then on line 38, update the connection string to what you need.  If you are connecting to a Banner Oracle database all you will need to update are the host, port, service_name, USER, and PASSWORD
