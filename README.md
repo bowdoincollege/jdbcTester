@@ -5,10 +5,10 @@ This is a quick and dirty jdbc testing application which can be used to debug da
 
 ## Things you'll need:
 
-*Eclipse (or another Java IDE)
-*Maven
-*ojdbc6.jar file from http://www.oracle.com/technetwork/database/features/jdbc/jdbc-drivers-12c-download-1958347.html
-*your Database Connection String
+.*Eclipse (or another Java IDE)
+.*Maven
+.*ojdbc6.jar file from http://www.oracle.com/technetwork/database/features/jdbc/jdbc-drivers-12c-download-1958347.html
+.*your Database Connection String
 
 ## How To Use:
 
